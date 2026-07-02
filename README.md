@@ -2,9 +2,10 @@
 Employee Attrition Prediction System
 
 ## how to install required packages
-'''python
+```python
 pip install -r requirement.txt
-'''
+```
+
 
 ## Technologies
 - python
