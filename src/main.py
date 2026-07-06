@@ -1,4 +1,12 @@
-import pandas as pd
+from data_ingestion import load_data
 
-data = pd.read_csv('Data/Raw/Employee-Attrition.csv')
-print(data.head())
+def main():
+    data = load_data()
+    print('Row and column count')
+    print(data.shape,'\n','_'*30)
+    print('Top 5 values')
+    print(data.head(),'\n','_'*30)
+
+
+if __name__ == '__main__':
+    main()
