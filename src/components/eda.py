@@ -22,12 +22,12 @@ def basic_eda(data:pd.DataFrame):
 
     print(pd.crosstab(data['OverTime'], data['Attrition']))
 
-    with open('dataset_summary.txt', 'w') as file:
-        print('started')
+    with open('./artifacts/reports/dataset_summary.txt', 'w') as file:
+
         file.write('\n' + '=' * 60)
         file.write('\nExploratory Data Analysis'.center(60))
         file.write('\n'+'=' * 60)
-        print('mid')
+
         file.write(f'\nDataset Shape: {data.shape}')
 
         file.write('\nTarget Variable Distribution\n')
