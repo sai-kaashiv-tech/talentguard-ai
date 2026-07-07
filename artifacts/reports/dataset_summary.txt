@@ -1,0 +1,16 @@
+
+============================================================                 
+Exploratory Data Analysis                 
+============================================================
+Dataset Shape: (1470, 35)
+Target Variable Distribution
+Attrition
+No     1233
+Yes     237
+Name: count, dtype: int64
+Department Variable Distribution
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
