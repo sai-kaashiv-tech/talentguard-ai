@@ -1,11 +1,12 @@
 import pandas as pd
+from config.paths import DATA_PATH
 
 def load_data():
     '''
     Loads data from csv file
     :return: a pandas dataframe
     '''
-    data = pd.read_csv('Data/Raw/Employee-Attrition.csv')
+    data = pd.read_csv(DATA_PATH/'Employee-Attrition.csv')
     return data
 
 if __name__ == '__main__':
